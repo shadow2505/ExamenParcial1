@@ -6,17 +6,17 @@ int main() {
 
     do {
 
-        printf("Ingresa el número inicial: ");
+        printf("Ingresa el numero inicial: ");
         scanf("%d", &numeroInicial);
 
-        printf("Los 10 números a partir de %d son:\n", numeroInicial);
+        printf("Los 10 numeros a partir de %d son:\n", numeroInicial);
         for (int i = numeroInicial; i < numeroInicial + 10; i++) 
 		{
             printf("%d\n", i);
         }
 
         // Pregunta al usuario si desea continuar
-        printf("¿Deseas continuar? (s/n): ");
+        printf("Â¿Deseas continuar? (s/n): ");
         scanf(" %c", &deseaContinuar); 
     } while (deseaContinuar == 's' || deseaContinuar == 'S');
 
