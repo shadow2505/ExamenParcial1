@@ -5,20 +5,20 @@ int main() {
     char continuar;
 
     do {
-        printf("Ingrese la cantidad de números a sumar: ");
+        printf("Ingrese la cantidad de numeros a sumar: ");
         scanf("%d", &N);
 
         int suma = 0;
         for (int i = 0; i < N; i++) {
             int numero;
-            printf("Ingrese el número %d: ", i + 1);
+            printf("Ingrese el numero %d: ", i + 1);
             scanf("%d", &numero);
             suma += numero;
         }
 
-        printf("La suma de los %d números ingresados es: %d\n", N, suma);
+        printf("La suma de los %d numeros ingresados es: %d\n", N, suma);
 
-        printf("¿Desea realizar otra operación? (s/n): ");
+        printf("Â¿Desea realizar otra operaciÃ³n? (s/n): ");
         scanf(" %c", &continuar); 
 
     } while (continuar == 's' || continuar == 'S');
